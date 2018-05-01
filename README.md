@@ -1,13 +1,14 @@
 # udacity-submit
-URL: http://ec2-18-188-80-81.us-east-2.compute.amazonaws.com
+#URL: http://ec2-18-188-80-81.us-east-2.compute.amazonaws.com
 
-IP: 18.188.80.81
+#IP: 18.188.80.81
 
-port: 2200
+#port: 2200
 
-Login with: ssh -i ~/.ssh/lastproject -p 2200 grader@18.188.80.81
+#Login with: ssh -i ~/.ssh/lastproject -p 2200 grader@18.188.80.81
+#grader password: 112358
 
-List of 3rd-party libs:
+#summary of software installed:
     psycopg2,
     flask
     sqlalchemy
@@ -16,6 +17,10 @@ List of 3rd-party libs:
     requests
     finger
     virtualenv
+
+#List of third-party resources:
+    https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+
 
 Step-1: Follow the instruction provided in to SSH into server
     .use chmod 600 ~/.ssh/udacity_key.pem to change the mode of key file first.
