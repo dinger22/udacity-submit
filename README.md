@@ -18,7 +18,7 @@
     finger
     virtualenv
 
-
+#Steps
 Step-1: Follow the instruction provided in to SSH into server
     .use chmod 600 ~/.ssh/udacity_key.pem to change the mode of key file first.
     .use ssh -i ~/.ssh/udacity_key.pem ubuntu@{publick IP} to ssh
