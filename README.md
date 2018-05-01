@@ -18,9 +18,6 @@
     finger
     virtualenv
 
-#List of third-party resources:
-    https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
-
 
 Step-1: Follow the instruction provided in to SSH into server
     .use chmod 600 ~/.ssh/udacity_key.pem to change the mode of key file first.
@@ -116,3 +113,9 @@ Step-6: deploy
     12. update Authorised JavaScript origins in google: http://ec2-18-188-80-81.us-east-2.compute.amazonaws.com
     13. run the application using python __init.py__. 
     14. check the hosted webapp using  http://ec2-18-188-80-81.us-east-2.compute.amazonaws.com
+
+
+#List of third-party resources:
+1. How To Deploy a Flask Application on an Ubuntu VPs:https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+2. db configure help:http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html#postgresql
+3. Disscussion form: https://discussions.udacity.com/
